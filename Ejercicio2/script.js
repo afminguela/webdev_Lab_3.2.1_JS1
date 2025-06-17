@@ -6,3 +6,5 @@ let hobbie= prompt("Dime tu hobbie:")
 
 
 console.log("Te llamas: "+ nombre +", Vives en: "+localidad + " y te gusta"+hobbie)
+
+document.body.innerHTML = "<h1>Te llamas: "+ nombre +", Vives en: "+localidad + " y te gusta"+hobbie + "</h1>"

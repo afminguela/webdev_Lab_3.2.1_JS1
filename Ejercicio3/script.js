@@ -9,3 +9,4 @@ function area(num1){
 }
 
 console.log(area(radio))
+document.body.innerHTML= "<h1>Para el radio de: "+radio+ " dado, El area es: " + area(radio) +"</h1>"
